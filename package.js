@@ -10,7 +10,7 @@ Package.registerBuildPlugin({
   name: "generateSemanticUi",
   use: [
     'ejson@1.0.6',
-    'semantic:ui-data@2.1.4'
+    'semantic:ui-data-extended@2.1.4'
   ],
   sources: [
     'semantic-ui.js',
