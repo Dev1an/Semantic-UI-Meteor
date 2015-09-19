@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'semantic:ui',
+  name: 'devian:semantic-ui',
   version: '2.1.4',
   summary: 'Official Semantic UI Integration for Meteor',
   git: 'https://github.com/Semantic-Org/Semantic-UI-Meteor.git',
@@ -10,7 +10,7 @@ Package.registerBuildPlugin({
   name: "generateSemanticUi",
   use: [
     'ejson@1.0.6',
-    'semantic:ui-data-extended@2.1.4'
+    'devian:semantic-ui-data@2.1.4'
   ],
   sources: [
     'semantic-ui.js',
